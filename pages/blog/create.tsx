@@ -7,7 +7,7 @@ import { BlogCreate } from "../../src/components/pages/blog/create";
 type Props = {};
 
 const BlogCreatePage: NextPage<Props> = () => {
-  return <BlogCreate></BlogCreate>;
+  return <BlogCreate />;
 };
 
 export default BlogCreatePage;
