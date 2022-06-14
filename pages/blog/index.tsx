@@ -3,11 +3,12 @@ import { NextPage } from "next";
 import React from "react";
 
 // components
+import { Blog } from "../../src/components/pages/blog";
 
 type Props = {};
 
 const BlogPage: NextPage<Props> = () => {
-  return <h1>ブログページです</h1>;
+  return <Blog></Blog>;
 };
 
 export default BlogPage;
